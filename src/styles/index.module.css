@@ -1,0 +1,29 @@
+.h1{
+    color: blue;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+}
+.mybtn{
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-size: large;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: blue;
+    font-weight: bold;
+    font-family: serif;
+    transition: 0.3s;
+}
+.mybtn:hover{
+    background-color: rgb(95, 0, 184);
+    color: white;
+}
